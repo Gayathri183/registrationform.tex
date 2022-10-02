@@ -1,0 +1,57 @@
+<html>
+<head> <title> REGISTER </title>
+</head>
+<body>
+<h1>Placement Registration Form</h1>
+
+
+<form>
+<input type="radio" name="gender">
+<label>Mr.</label>
+<input type="radio" name="gender">
+<label>Mrs.</label>
+<input type="radio" name="gender">
+<label>Ms.</label><br><br>
+StudentID:<input type="text" name="StudentID" placeholder="StudentID"> <br> <br>
+First name: <input type="text" name="Firstname" placeholder="Firstname"> <br> <br>
+Last name:<input type="text" name="Last name" placeholder="last name"><br><br>
+Username:<input type="text" name="Username" placeholder="username"><br><br>
+Password:<input type="password" name="Password" placeholder="password"><br><br>
+<label>Address</label>
+<textarea placeholder="optional" rows="2" cols="15" > </textarea><br><br>
+City:<input type="text" name="city"><br><br>
+<label> select state:  </label>
+<select> 
+<option> TELANAGANA</option>
+<option> ANDHRAPRADESH</option>
+<option> TAMILNADU</option>
+<option> KERALA</option>
+<option> KARNATAKA</option>
+</select><br><br>
+Pincode<input type="text" name="Pincode"><br><br>
+<p>Upload photo </p>
+<input type="file"><br><br>
+Email<input type="text" name="Email"><br><br>
+Mobile number<input type="text" name="Mobile number"><br><br>
+<p>Languages known </p>
+<input type="checkbox">
+<label> Telugu </label><br><br>
+<input type="checkbox">
+<label> Hindi </label><br><br>
+<input type="checkbox">
+<label> English </label><br><br>
+<label> Additional information </label>
+<textarea placeholder="optional" rows="2" cols="15" > </textarea><br><br>
+<input type="checkbox">
+<label>Accepting the terms and conditons</label><br><br>
+
+
+
+
+<input type="submit" value="sign up">
+<input type="reset" value="reset">
+
+
+</form>
+</body>
+</html>
